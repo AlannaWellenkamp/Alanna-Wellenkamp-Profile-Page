@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <!-- head displays information that will not appear on page, holds metadata for webpage and is important for search engines -->
+  <head>
+    <!-- define character set used -->
+    <meta charset="utf-8">
+    <!-- set display width -->
+    <meta name="viewport" content="width=device-width">
+    <!-- webpage title, for display in tab of broswer and identification by search engines -->
+    <title>Alanna Wellenkamp</title>
+    <!-- link to normalizing style sheet -->
+    <link 
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    rel="stylesheet" 
+    type="text/css" />
+    <!-- link to external style sheet -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <!-- body contains content of webpage to be displayed -->
+  <body>
+    <!-- header container, in this case holding only a text heading -->
+    <header>
+      <h1>Alanna Wellenkamp</h1>
+      <h3>Aspiring Web Designer</h3>
+    </header>
+
+    <!-- simple container used to create empty space between other containers when needed -->
+    <div class="spacing">
+    </div>
+
+    <!-- main, semantic container holding bulk of the content of the page -->
+    <main>
+      <!-- container used to specify a photo for styling purposes -->
+      <div class="photo">
+        <!-- image element with local source, an alternative text description, and a set width -->
+        <img src="photo.jpg" alt="picture of person in beanie and glasses looking towards camera" width=750px />
+      </div>
+
+      <div class="spacing">
+      </div>
+
+      <!-- semantic container for informational content that is self evident and can be isolated from the page and still make sense -->
+      <article>
+        <!-- using 'wrapper' class to center all contained content and keep within a set width -->
+        <div class="wrapper">
+          <!-- using 'block' class to be able to style each section uniformly and easily -->
+          <div class="block">
+            <h2>Hi, it's me, Alanna</h2>
+            <p>I'm currently a studdent at <a href="https://www.thinkful.com">thinkful</a>, living in Riverside California.</p>
+            <p>I'd ultimately love to build websites that:</p>
+            <!-- unordered list, followed by list items -->
+            <ul>
+              <li>have satisfying and clean code</li>
+              <li>are informational and educational</li>
+              <li>help promote or facilitate charitable work</li>
+              <li>have some cute animals</li>
+            </ul>
+          </div>
+
+          <!-- horizontal rule used to visually separate sections of the page -->
+          <hr>
+
+          <div class="block">
+            <h2>About Me</h2>
+            <p>I've always been interested in and comfortable with computers and technology, and am excited to move towards working with them as a career.  I also look forward to working with others as a team to complete large scale projects beyond an individual's scope.</p>              
+            <p>I can remember writing rudimentary programs on a ti-84 calculator during art history class back in high school.  Good times.</p>
+            <p>I realized fairly late in life, at 27, that I'm trans.  It's the best thing that's happened in my life, and gave me a new motivation for personal and professional growth.</p>
+            <p>I've loved animals all my life, and after many years having many pet rats, I now have two wonderful cats.</p>
+          </div>
+
+          <hr>
+
+          <div class="block">
+            <h2>Get in touch</h2>
+            <!-- ordered list, followed by list items -->
+            <ol>
+              <li><a href="https://www.linkedin.com/in/alanna-wellenkamp-9780981b8/">LinkedIn</a></li>
+              <li><a href="https://github.com/AlannaWellenkamp">GitHub</a></li>
+              <li><a href="mailto:actuallyalanna@gmail.com">Email me</a></li>
+            </ol>
+          </div>
+        </div>
+      </article>
+      
+    </main>
+
+    <div class="spacing">
+    </div>
+
+    <!-- semantic container for page footer -->
+    <footer>
+      <p>© Alanna Wellenkamp</p>
+    </footer>
+    
+      
+    <script src="script.js"></script>
+  </body>
+</html>
